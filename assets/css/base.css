@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------------------*/
+/*==<作者:刘景文，QQ:1960009001，邮箱:leotech@126.com，欢迎洽谈商务合作！>==*/
+/*--------------------------------------------------------------------------*/
+
+/* Single Css
+=================================== */
+/*----background*/
+.bgctr{background-color:transparent;}
+.bgcr{background-color:red;}
+.bgcg{background-color:green;}
+.bgcb{background-color:blue;}
+/*----color*/
+.ca{color:aqua;}
+.cba{color:black;}
+.cbu{color:blue;}
+.cf{color:fuchsia;}
+.cga{color:gray;}
+.cge{color:green;}
+.cl{color:lime;}
+.cm{color:maroon;}
+.cn{color:navy;}
+.col{color:olive;}
+.cor{color:orange;}
+.cp{color:purple;}
+.cr{color:red;}
+.cs{color:silver;}
+.ct{color:teal;}
+.cw{color:white;}
+.cy{color:yellow;}
+
+/*----display*/
+.dn{display:none;}
+.di{display:inline;}
+.db{display:block;}
+.dib{display:inline-block;}
+/*----percent*/
+.pct10{width:10%;}
+.pct15{width:15%;}
+.pct20{width:20%;}
+.pct25{width:25%;}
+.pct30{width:30%;}
+.pct33{width:33.3%;}
+.pct40{width:40%;}
+.pct50{width:50%;}
+.pct60{width:60%;}
+.pct66{width:66.6%;}
+.pct70{width:70%;}
+.pct75{width:75%;}
+.pct80{width:80%;}
+.pct90{width:90%;}
+.pct100{width:100%;}
+
+/*----font-family */
+.fa{font-family:Arial;}
+.ft{font-family:Tahoma;}
+.fv{font-family:Verdana;}
+.fs{font-family:Simsun;}
+.fl{font-family:'Lucida Console';}
+.fw{font-family:'Microsoft Yahei';}
+/*----font-style */
+.n{font-weight:normal; font-style:normal;}
+.b{font-weight:bold;}
+.i{font-style:italic;}
+.l{float: left;}
+.r{float: right;}
+/*----text-align */
+.tc{text-align:center;}
+.tr{text-align:right;}
+.tl{text-align:left;}
+.tj{text-align:justify;}
+/*----text-decoration */
+.tdu{text-decoration:underline;}
+.tdn,.tdn:hover,.tdn a:hover,a.tdu:hover{text-decoration:none;}
+/*----position */
+.rel{position:relative;}
+.abs{position:absolute;}
+/*----z-index*/
+.zx1{z-index:1;}
+.zx2{z-index:2;}
+/*----cursor */
+.poi{cursor:pointer;}
+.def{cursor:default;}
+/*----overflow */
+.ovh{overflow:hidden;}
+.ova{overflow:auto;}
+/*----visibility */
+.vh{visibility:hidden;}
+.vv{visibility:visible;}
+/*----zoom */
+.z{*zoom:1;}
+
+/* Multi Css
+=================================== */
+.auto{margin-left:auto; margin-right:auto;}
+.fix{*zoom:1;}
+.fix:after{display:table; content:''; clear:both;}
+.cell{display:table-cell; *display:inline-block; width:2000px; *width:auto;}
+.cell_bk{display:table; width:100%; table-layout:fixed; word-wrap:break-word;}
+.ell{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.trans{
+	-webkit-transition:all 0.3s;	
+	        transition:all 0.3s;
+}
+.loading{background:url(image/loading.gif) no-repeat center;}
+.bd_none{border:0; outline:none;}
+.abs_out{position:absolute; left:-999em; top:-999em;}
+.abs_clip{position:absolute; clip:rect(0 0 0 0);}
+.disabled{color:#acacac!important; border-color:#acacac!important; text-shadow:1px 1px #fff!important; outline:0!important; cursor:default!important; pointer-events:none;}
+.disabled:hover{text-decoration:none!important;}

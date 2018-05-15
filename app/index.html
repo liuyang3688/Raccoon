@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+
+<?php 
+				$i = 1;
+				foreach ($case_array as $case): 
+				
+				?>
+					<tr>
+						<td><?=$mapIdToName[$case['id']]?></td>
+						<td><input type='text' name='projName' value='<?=$case['name']?>'></td>
+						<td><input type='file' value='上传'></td>
+					</tr>
+				<?php 
+				$i++;
+				endforeach; 
+				?> -->
